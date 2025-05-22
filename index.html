@@ -1,77 +1,829 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bayuzen Ahmad</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body id="top">
     <header id="header_area">
-        <div class="container inner">
-            <div class="logo_area">
-                <h1><a href="index.html">Bayuzen Ahmad</a></h1>
-            </div>
-            <div class="menu_area">
-                <nav id="main_menu">
-                    <ul class="ul">
-                        <li><a href=""><i class='bx  bx-home-alt'></i><span>Home</span></a></li>
-                        <li><a href=""><i class='bx  bx-user-circle'></i><span>About</span></a></li>
-                        <li><a href=""><i class='bx  bx-cog'></i><span>Service</span></a></li>
-                        <li><a href=""><i class='bx  bx-landscape'></i><span>Portofolio</span></a></li>
-                        <li><a href=""><i class='bx  bx-envelope'></i><span>Contact</span></a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="download_cv">
-                <a class="cta_btn" href="">Download CV</a>
-            </div>
+      <div class="container inner">
+        <div class="logo_area">
+          <h1><a href="index.html">Bayuzen Ahmad</a></h1>
         </div>
+        <div class="menu_area">
+          <nav id="main_menu">
+            <ul class="ul">
+              <li>
+                <a href=""><i class="bx bx-home-alt"></i><span>Home</span></a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="bx bx-user-circle"></i><span>About</span></a
+                >
+              </li>
+              <li>
+                <a href=""><i class="bx bx-cog"></i><span>Service</span></a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="bx bx-landscape"></i><span>Portofolio</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="bx bx-envelope"></i><span>Contact</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="download_cv">
+          <a class="cta_btn" href="">Download CV</a>
+        </div>
+      </div>
     </header>
 
     <section id="hero_area">
-        <div class="container inner">
-            <div class="info_area">
-                <h5>HELLO, MY NAME IS</h5>
-                <h1>Bayuzen Ahmad</h1>
-                <h6>AI Engineer</h6>
-                <p>Experienced Data and AI Specialist with 4+ years in end-to-end ML and analytics solutions.</p>
-                <a href="" class="cta_btn">Let's Talk <i class="bx bx-right-arrow-alt"></i></a>
-            </div>
-            <div class="admin_image">
-                <img src="img/bayuzen.png" alt="" width="500" height="auto">
-            </div>
+      <div class="container inner">
+        <div class="info_area">
+          <h5>HELLO, MY NAME IS</h5>
+          <h1>Bayuzen Ahmad</h1>
+          <h6>AI Engineer</h6>
+          <p>
+            Experienced Data and AI Specialist with 4+ years in end-to-end ML
+            and analytics solutions.
+          </p>
+          <a href="" class="cta_btn">
+            Let's Talk <i class="bx bx-right-arrow-alt"></i>
+          </a>
+
+          <!-- Social links moved here -->
+          <div class="social_links">
+            <a
+              href="https://github.com/bayuzen19"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/bayuzenahmad"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
         </div>
+
+        <div class="admin_image">
+          <img src="img/bayuzen.png" alt="" width="500" height="auto" />
+        </div>
+      </div>
     </section>
 
     <section id="service_area">
-        <div class="container">
-            <div class="title">
-                <h4>My Service</h4>
-                <h2>What I Do?</h2>
-            </div>
-            <div class="inner">
-                <div class="child">
-                    <i class="bx bx-bot"></i>
-                    <h3>Artificial Intelligence</h3>
-                    <p>Developing AI solutions integrated with cloud platforms such as Azure, GCP, and AWS, focusing on scalable, production-ready systems for business applications.</p>
-                </div>
-                <div class="child">
-                    <i class="bx bx-brain"></i>
-                    <h3>Data Scientist</h3>
-                    <p>Experienced in building machine learning models, conducting data analysis, and delivering actionable insights to support data-driven decisions.</p>
-                </div>
-                <div class="child">
-                    <i class="bx bx-code"></i>
-                    <h3>Web Development</h3>
-                    <p>Designing and developing modern, responsive websites and dashboards using HTML, CSS, JavaScript, and frameworks such as React and Next.js.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="title">
+          <h4>My Service</h4>
+          <h2>What I Do?</h2>
         </div>
+        <div class="inner">
+          <div class="child">
+            <i class="bx bx-bot"></i>
+            <h3>Artificial Intelligence</h3>
+            <p>
+              Developing AI solutions integrated with cloud platforms such as
+              Azure, GCP, and AWS, focusing on scalable, production-ready
+              systems for business applications.
+            </p>
+          </div>
+          <div class="child">
+            <i class="bx bx-brain"></i>
+            <h3>Analytics</h3>
+            <p>
+              Experienced in building machine learning models, conducting data
+              analysis, and delivering actionable insights to support
+              data-driven decisions.
+            </p>
+          </div>
+          <div class="child">
+            <i class="bx bx-code"></i>
+            <h3>Web Development</h3>
+            <p>
+              Designing and developing modern, responsive websites and
+              dashboards using HTML, CSS, JavaScript, and frameworks such as
+              React and Next.js.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+
+    <section id="skills_area">
+      <div class="container">
+        <div class="title">
+          <h4>My Abilities</h4>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills_grid">
+          <div class="skill_item">Python</div>
+          <div class="skill_item">Java Script</div>
+          <div class="skill_item">ReactJS</div>
+          <div class="skill_item">Django</div>
+          <div class="skill_item">NextJS</div>
+          <div class="skill_item">NodeJS</div>
+          <div class="skill_item">SQL</div>
+          <div class="skill_item">Machine Learning</div>
+          <div class="skill_item">Deep Learning</div>
+          <div class="skill_item">Computer Vision</div>
+          <div class="skill_item">NLP</div>
+          <div class="skill_item">TensorFlow</div>
+          <div class="skill_item">PyTorch</div>
+          <div class="skill_item">LangChain</div>
+          <div class="skill_item">LangGraph</div>
+          <div class="skill_item">FastAPI</div>
+          <div class="skill_item">Docker</div>
+          <div class="skill_item">Kubernetes</div>
+          <div class="skill_item">GitLab CI/CD</div>
+          <div class="skill_item">Airflow</div>
+          <div class="skill_item">Power BI</div>
+          <div class="skill_item">Tableau</div>
+          <div class="skill_item">Azure</div>
+          <div class="skill_item">AWS</div>
+          <div class="skill_item">GCP</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio_area">
+      <div class="container">
+        <div class="title">
+          <h4>Lastest Project</h4>
+          <h2>Portfolio</h2>
+        </div>
+        <div class="inner">
+          <div class="portfolio">
+            <img src="img/ai_protofolio.png" alt="" />
+            <a href=""><i class="bx bx-link"></i> </a>
+          </div>
+          <div class="portfolio">
+            <img src="img/ai_protofolio.png" alt="" />
+            <a href=""><i class="bx bx-link"></i> </a>
+          </div>
+          <div class="portfolio">
+            <img src="img/ai_protofolio.png" alt="" />
+            <a href=""><i class="bx bx-link"></i> </a>
+          </div>
+          <div class="portfolio">
+            <img src="img/ai_protofolio.png" alt="" />
+            <a href=""><i class="bx bx-link"></i> </a>
+          </div>
+          <div class="portfolio">
+            <img src="img/ai_protofolio.png" alt="" />
+            <a href=""><i class="bx bx-link"></i> </a>
+          </div>
+          <div class="portfolio">
+            <img src="img/ai_protofolio.png" alt="" />
+            <a href=""><i class="bx bx-link"></i> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience_area">
+      <div class="container">
+        <div class="title">
+          <h4>My journey in the academic & professional front</h4>
+          <h2>Experience</h2>
+        </div>
+
+        <div class="experience_tabs">
+          <button class="tab active" data-target="professional">
+            👔 Professional
+          </button>
+          <button class="tab" data-target="academic">🎓 Academic</button>
+        </div>
+
+        <div class="timeline_container">
+          <!-- Professional -->
+          <div class="timeline active" id="professional">
+            <div class="timeline_item">
+              <h3>AI Engineer</h3>
+              <p>Metrodata, Jakarta</p>
+              <span>Dec 2024 – Present</span>
+            </div>
+            <div class="timeline_item">
+              <h3>Machine Learning Engineer</h3>
+              <p>Farmbyte, Remote Kuala Lumpur</p>
+              <span>Aug 2024 – Feb 2025</span>
+            </div>
+            <div class="timeline_item">
+              <h3>Freelance Machine Learning Engineer</h3>
+              <p>Insignia, Jakarta</p>
+              <span>Apr 2024 – Jul 2024</span>
+            </div>
+            <div class="timeline_item">
+              <h3>Data Scientist</h3>
+              <p>Astra Isuzu Motor Indonesia</p>
+              <span>Nov 2023 – Apr 2024</span>
+            </div>
+            <div class="timeline_item">
+              <h3>Data Scientist</h3>
+              <p>Sharing Vision Indonesia</p>
+              <span>Mar 2022 – Nov 2023</span>
+            </div>
+            <div class="timeline_item">
+              <h3>Business Intelligence Analyst</h3>
+              <p>Aplikasi Super (YC W18)</p>
+              <span>Jan 2022 – Feb 2023</span>
+            </div>
+            <div class="timeline_item">
+              <h3>Junior Analyst</h3>
+              <p>Tsingshan Holding Group</p>
+              <span>Jan 2020 – Aug 2021</span>
+            </div>
+          </div>
+
+          <!-- Academic-->
+          <div class="timeline" id="academic">
+            <div class="timeline_item">
+              <h3>Bachelor of Science - Material Engineering</h3>
+              <p>Institut Teknologi Sepuluh Nopember</p>
+              <span>Sep 2015 – Sep 2019</span>
+            </div>
+            <div class="timeline_item">
+              <h3>Certified Associate Data Scientist</h3>
+              <p>BNSP Indonesia</p>
+            </div>
+            <div class="timeline_item">
+              <h3>Azure AI Engineer Associate</h3>
+              <p>Microsoft Certified</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews_area">
+      <div class="container">
+        <div class="title">
+          <h4>What They Say</h4>
+          <h2>Reviews</h2>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    I have the honor to work with Bayuzen to deliver AI /
+                    machine learning solutions together. He is very enthusiastic
+                    and keen about his work, often burning through the midnight
+                    oil when working through hard problems. He has the capacity
+                    to succeed in any role he sets to do, and I encourage
+                    companies to seek him for his eagerness and passion.
+                    Undoubtedly he would be an asset to any organization with
+                    his Python, SQL and cloud skills on top of it.
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_01.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Muhammad Afiq Che Man</h4>
+                    <h4>Sr. Data Scientist</h4>
+                    <h5>Farmbyte</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    I had a pleasure to work with Bayu he has a lot of domain
+                    knowledge in AI and Machine Learning, he can tune up and
+                    also cut a cost for AI modeling. Keep it a good work Bayu!
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_02.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Muhammad Aushafy Setyawan</h4>
+                    <h4>Sr. System Engineer</h4>
+                    <h5>Stockbit</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    I have had the privilege of working closely with Bayuzen
+                    Ahmad, a highly skilled AI Engineer with an exceptional
+                    ability to design, build, and deploy innovative AI
+                    solutions. Bayuzen's expertise in leveraging advanced
+                    frameworks like TensorFlow, PyTorch, and other
+                    state-of-the-art tools is truly remarkable. Bayuzen
+                    consistently demonstrates an exceptional ability to design
+                    and implement efficient machine learning models and
+                    workflows that address complex challenges with precision.
+                    His deep understanding of neural network architectures,
+                    algorithm optimization, and data-driven analytics has been
+                    instrumental in enhancing project performance and enabling
+                    impactful business decision-making. What sets Bayuzen apart
+                    is not only his technical prowess but also his attention to
+                    detail and a results-driven problem-solving mindset. Whether
+                    he is developing groundbreaking AI algorithms or fine-tuning
+                    deep learning models for improved accuracy and scalability,
+                    Bayuzen delivers innovative and reliable solutions.
+                    Additionally, his collaborative spirit and clear
+                    communication style contribute greatly to a productive team
+                    environment, fostering creativity and mutual growth. Beyond
+                    his technical skills, Bayuzen is a professional committed to
+                    continuous learning and growth. His proactive approach to
+                    staying abreast of the latest AI trends, combined with his
+                    willingness to mentor and share knowledge, makes him a
+                    valuable asset to any organization seeking excellence in AI
+                    innovation. I highly recommend Bayuzen Ahmad to any company
+                    looking for a talented and dedicated AI Engineer. I am
+                    confident that his expertise and contributions will drive
+                    significant value and innovation to any team he joins.
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_03.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Salbi Faza Rinaldi</h4>
+                    <h4>Sr. Data Engineer</h4>
+                    <h5>Ismaya Group</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    I had the pleasure of interviewing Bayuzen, and I was
+                    immediately struck by the positive energy he brings to the
+                    table. He not only demonstrated impressive technical skills
+                    but also showcased great communication abilities, making
+                    complex concepts easy to understand. Bayuzen stood out with
+                    his unwavering willingness to explore new challenges and his
+                    tenacity in problem-solving. It's clear that he is not just
+                    a data scientist but a proactive and adaptable team member
+                    who goes the extra mile. I highly recommend him for his
+                    valuable combination of expertise and enthusiasm.
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_04.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Stefani Sarilin</h4>
+                    <h4>Business Process Reengineering Manager</h4>
+                    <h5>Toyota</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    Bayuzen Ahmad is a remarkable professional with whom I had
+                    the privilege of working at PT Bank Rakyat Indonesia. As a
+                    fellow data scientist on our team, Bayuzen consistently
+                    impressed me with his exceptional skills and dedication.
+                    Bayuzen's analytical prowess and problem-solving abilities
+                    were evident in every project we collaborated on. He
+                    possesses an innate talent for dissecting complex datasets
+                    and extracting valuable insights that undoubtedly
+                    contributed to the success of our team's initiatives. His
+                    attention to detail and methodical approach set a high
+                    standard for our work. What truly stood out about Bayuzen
+                    was his collaborative spirit and positive attitude. He not
+                    only excelled individually but also fostered a cohesive team
+                    environment. He readily shared his expertise, supported team
+                    members, and actively contributed to brainstorming sessions,
+                    making our collective efforts more impactful. Bayuzen's
+                    commitment to personal growth and learning is truly
+                    inspiring. He consistently kept up with the latest industry
+                    trends and technologies, bringing fresh ideas to the table
+                    that invigorated our projects. His willingness to go the
+                    extra mile and take on challenges head-on demonstrated his
+                    unwavering dedication. I wholeheartedly recommend Bayuzen
+                    Ahmad to anyone seeking a data scientist who not only
+                    possesses outstanding technical skills but also thrives in a
+                    collaborative team setting. His insights and expertise will
+                    undoubtedly make valuable additions to your organization
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_05.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Adrianus Wisnu</h4>
+                    <h4>Data Analyst</h4>
+                    <h5>Bank Rakyat Indonesia</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    Bayuzen is best described with the word
+                    “continuous-learner”. As someone who work under the same
+                    team with him, I instantly understand that he will always
+                    have academic theories — from statistics to social research
+                    — to back up his work and that’s what made him an
+                    outstanding Data Scientist. Not only does Bayuzen like to
+                    enrich his knowledge, he also shares it with others. One of
+                    my first machine learning projects was with an enormous
+                    amount of his guidance and tutor, that's why he is a very
+                    valuable person to work together with.
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_06.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>An Nisya Fitri</h4>
+                    <h4>Junior Manager</h4>
+                    <h5>Bank Rakyat Indonesia</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    In addition to being a buddy, Bayuzen is also a learning
+                    friend. He has the drive and curiosity to keep discovering
+                    new things, specifically in the area of data. He can
+                    definitely contribute greatly to the organization with his
+                    abilities and drive.
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_07.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Rafi Wirawan</h4>
+                    <h4>Data Analyst</h4>
+                    <h5>PT Santos</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    It is an honor to know Bayuzen for the past 8 years. In my
+                    opinion, Bayuzen is a person who has a purpose in life to
+                    learn and teach. He is a very intelligent person and has a
+                    passion for continuous improvement/learning. He is one of
+                    the people who played an important role in my career. He
+                    introduced me to Data Science and taught me many things
+                    related to it, from introduction until real case. I highly
+                    recommend Bayuzen for any fields that related to Data
+                    Science, I really believe that Bayuzen could become a key
+                    person and contribute to the company!
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_08.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Marina Hermaningsih</h4>
+                    <h4>Digital Campaign Analyst</h4>
+                    <h5>Bank Sinarmas</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    Bayuzen Ahmad is an outstanding professional in the field of
+                    Data and AI. I highly appreciate his ability to design,
+                    build, and maintain forecasting pipelines—from data
+                    processing and feature engineering to modeling with Prophet
+                    and Skforecast. He excels in developing backend services
+                    through FastAPI, managing AWS infrastructure with
+                    CloudFormation and Terraform, and implementing CI/CD in
+                    GitLab. With his experience deploying solutions using
+                    Docker, Airflow, and Kubernetes, Bayuzen consistently
+                    ensures that systems run optimally and securely. I am
+                    confident that his expertise and professionalism make him a
+                    valuable asset to any team or organization. Bayuzen Ahmad is
+                    an outstanding professional in the field of Data and AI. I
+                    highly appreciate his ability to design, build, and maintain
+                    forecasting pipelines—from data processing and feature
+                    engineering to modeling with Prophet and Skforecast. He
+                    excels in developing backend services through FastAPI,
+                    managing AWS infrastructure with CloudFormation and
+                    Terraform, and implementing CI/CD in GitLab. With his
+                    experience deploying solutions using Docker, Airflow, and
+                    Kubernetes, Bayuzen consistently ensures that systems run
+                    optimally and securely. I am confident that his expertise
+                    and professionalism make him a valuable asset to any team or
+                    organization.
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_09.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Muhammad Putra Jaya Kartika</h4>
+                    <h4>Technical Engineer</h4>
+                    <h5>Metrodata Group</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    Bayuzen is an amazing mentor, he sets high goals and is
+                    always dedicated to learn something new. Through my learning
+                    experience of Data Analysis and Machine Learning, he
+                    encourages me and gives me fresh perspective of uncovering
+                    business insights. I find him uniquely resourceful and
+                    adaptive. I highly recommend him as a mentor as well as a
+                    Data Scientist. I have no doubt that he can definitely be an
+                    asset in any team!
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_10.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Tamara Coglitore</h4>
+                    <h4>Product Manager</h4>
+                    <h5>Eklipse.gg</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    Bayuzen is an avid learner, he always does extra miles to
+                    make sure all his responsibility is running well. Bayu was
+                    always available when needed and did not hesitate to share
+                    his knowledge. He is very kind, smart, and the most
+                    important Bayu always wants to learn new things. His
+                    contributions were really valuable, I highly recommend
+                    Bayuzen as a Data Engineering expertise and would love to
+                    work together again.
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_11.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Amirah Hasan</h4>
+                    <h4>Developement Studies Posgraduate</h4>
+                    <h5>LPDP</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    “Philomath”, that is what comes to mind if I had to describe
+                    Bayuzen. It is such a pleasure to be in the same batch of
+                    Specialized Data Science: Business Intelligence bootcamp
+                    with Bayuzen. He is always accommodating, kind, motivated,
+                    and ambitious in a good way. He becomes bootcamp-mate and a
+                    mentor at the same time for me. He doesn’t hesitate to help
+                    others to work out their assignment and even makes time to
+                    share his knowledge about Data Science after he’s done at
+                    work. I'm sure he will be a great asset to any team he
+                    joins. A great colleague!!
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_12.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Muhammad Amin</h4>
+                    <h4>Commissioning Field Operator</h4>
+                    <h5>RDMP Balikpapan JO</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="child">
+                <div class="child_head">
+                  <i class="bx bxs-quote-left"></i>
+                  <div class="reviews">
+                    <i class="bx bx-message-dots"></i>
+                  </div>
+                </div>
+                <div class="child_body">
+                  <p>
+                    "Smart and humble is the phrase that comes to mind when I
+                    think about Bayuzen. I've had the pleasure of knowing
+                    Bayuzen during our study. Above all, I was impressed with
+                    Bayuzen's ability to understand and describe a problem case
+                    then perform a good problem analysis. And, of course, his
+                    ability to provide solution recommendations. Bayuzen would
+                    be a true asset for any position requiring analytical and
+                    problem solving and comes with my heartfelt recommendation"
+                  </p>
+                </div>
+                <div class="child_bottom">
+                  <div class="author">
+                    <img src="img/review_13.jpeg" alt="" />
+                  </div>
+                  <div class="author_info">
+                    <h4>Rahardito Dio Prastowo</h4>
+                    <h4>Digital Economy Researcher</h4>
+                    <h5>BRIN</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact_area">
+      <div class="container">
+        <div class="title">
+          <h4>Let's get in touch</h4>
+          <h2>Contact</h2>
+        </div>
+        <div class="inner">
+          <form action="">
+            <label for="name">Your Name</label>
+            <input type="text" placeholder="Enter your name" />
+            <label for="email">Your Email</label>
+            <input type="email" placeholder="Enter Your Email">
+            <label for="phone">Your Phone Number</label>
+            <input type="number" placeholder="Enter Your Phone Number">
+            <label for="message">Your Message</label>
+            <textarea placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="Send Message">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer_area">
+  <div class="container">
+    <div class="inner">
+      <p>&copy; 2025 Bayuzen Ahmad. All rights reserved.</p>
+      <div class="footer_links">
+        <a href="https://github.com/bayuzen19" target="_blank" aria-label="GitHub">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/bayuzenahmad" target="_blank" aria-label="LinkedIn">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="#top" class="back_to_top" aria-label="Back to top">
+          <i class="bx bx-up-arrow-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Java Scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
 </html>
