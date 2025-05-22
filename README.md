@@ -1,9 +1,5 @@
 # 🌐 Bayuzen Ahmad - Portofolio Website
 
-Ini adalah situs web portofolio interaktif yang menampilkan informasi profesional, akademik, proyek, review, dan keterampilan dari Bayuzen Ahmad. Website ini dibangun dengan HTML, CSS (SCSS), dan JavaScript, serta menggunakan **SwiperJS** untuk efek slider.
-
----
-
 ## 📄 Tentang Saya
 
 Bayuzen Ahmad adalah seorang **Data and AI Specialist** dengan pengalaman lebih dari 4 tahun dalam membangun solusi end-to-end di berbagai industri, termasuk perbankan, ritel, manufaktur, dan teknologi. Ia memiliki keahlian dalam membangun pipeline machine learning, sistem forecasting, dan aplikasi AI produksi.
