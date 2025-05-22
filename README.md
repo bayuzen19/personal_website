@@ -1,7 +1,5 @@
 # 🌐 Bayuzen Ahmad - Portofolio Website
 
-![Foto Bayuzen](img/bayuzen.png)
-
 Ini adalah situs web portofolio interaktif yang menampilkan informasi profesional, akademik, proyek, review, dan keterampilan dari Bayuzen Ahmad. Website ini dibangun dengan HTML, CSS (SCSS), dan JavaScript, serta menggunakan **SwiperJS** untuk efek slider.
 
 ---
